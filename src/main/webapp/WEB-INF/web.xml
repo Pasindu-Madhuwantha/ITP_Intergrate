@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+	<servlet>
+		<servlet-name>supplier-stock</servlet-name>
+		<servlet-class>com.controller.NewSupItemCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>supplier-stock</servlet-name>
+		<url-pattern>/default</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>auto-fill</servlet-name>
+		<servlet-class>com.controller.NewSupItemCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>auto-fill</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>add-to-database</servlet-name>
+		<servlet-class>com.controller.NewSupItemCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>add-to-database</servlet-name>
+		<url-pattern>/addDB</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>display-stock-table</servlet-name>
+		<servlet-class>com.controller.NewSupItemCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>display-stock-table</servlet-name>
+		<url-pattern>/stockView</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>new-stock-table</servlet-name>
+		<servlet-class>com.controller.NewSupItemCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>new-stock-table</servlet-name>
+		<url-pattern>/newStock</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>auto-fill-stock-record</servlet-name>
+		<servlet-class>com.controller.NewSupItemCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>auto-fill-stock-record</servlet-name>
+		<url-pattern>/edit</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>update-database</servlet-name>
+		<servlet-class>com.controller.NewSupItemCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>update-database</servlet-name>
+		<url-pattern>/updateDB</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>delete-database</servlet-name>
+		<servlet-class>com.controller.NewSupItemCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>delete-database</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>inventory-view</servlet-name>
+		<servlet-class>com.controller.NewInvCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>inventory-view</servlet-name>
+		<url-pattern>/inventoryView</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>edit-inventory-record</servlet-name>
+		<servlet-class>com.controller.NewInvCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>edit-inventory-record</servlet-name>
+		<url-pattern>/editInventory</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>update-inventory-record</servlet-name>
+		<servlet-class>com.controller.NewInvCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>update-inventory-record</servlet-name>
+		<url-pattern>/updateInventoryDB</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>delete-inventory-record</servlet-name>
+		<servlet-class>com.controller.NewInvCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>delete-inventory-record</servlet-name>
+		<url-pattern>/deleteInventory</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>add-inventory-record</servlet-name>
+		<servlet-class>com.controller.NewInvCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>add-inventory-record</servlet-name>
+		<url-pattern>/addInventoryDB</url-pattern>
+	</servlet-mapping>
+	
+	
+
+</web-app>
