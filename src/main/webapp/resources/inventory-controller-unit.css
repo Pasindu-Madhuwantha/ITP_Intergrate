@@ -1,0 +1,165 @@
+.inventory-body {
+	display: flex;
+}
+
+.test {
+	margin: 0px 0 20px 0;
+}
+
+.inventory-btn, .report-btn {
+	display: flex;
+	justify-content: center;
+	padding: 30px 0 30px 0 !important;
+}
+
+.inventory-btn button {
+	padding: 10px 30px;
+	font-weight: bold;
+	border-radius: 10px;
+	background-color: #165be3;
+	color: white;
+	border: 0;
+}
+
+.inventory-btn button:hover, .report-btn button:hover {
+	background-color: #3366FF;
+}
+
+/*--------------------------------------------*/
+.stock-label {
+	width: 36%;
+	margin: 0;
+	padding: 0;
+}
+
+.stock-input {
+	width: 60%;
+	margin: 0;
+	padding: 0;
+}
+
+.stock-label, .stock-input {
+	margin: 10px 0px 10px 0px;
+}
+
+.stock-form div.form-content {
+	padding: 20px 20px 20px 20px;
+}
+
+.stock-form {
+	border: solid;
+	margin: 0 20px 0 20px;
+	border-radius: 20px;
+	border-color: #165be3; 
+}
+
+.form-title {
+	display: flex;
+	justify-content: center;
+	padding: 10px 0 10px 0;
+	font-weight: bold;
+	color: #165be3;
+	font-size: 20px;
+}
+
+div.form-title {
+	border-bottom-style: solid;
+	border-color: #165be3;
+}
+
+.form-submit {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.form-submit input {
+	padding: 7px 20px;
+}
+
+.form-submit #add, .form-submit #update {
+	color: white;
+	font-weight: bold;
+	border: 0;
+	border-radius: 10px;
+}
+
+.form-submit #add {
+	background-color: #009900;
+	
+}
+
+/*-----------------------------------------------------------*/
+
+.report-btn button {
+	padding: 10px 0;
+	font-weight: bold;
+	border-radius: 10px;
+	width: 80%;
+	background-color: #165be3;
+	color: white;
+	border: 0;
+
+}
+
+/*----------------------------------------------------------*/
+
+.table-view {
+	float: left;
+	padding: 30px 20px;
+}
+
+.button-area {
+	display: flex;
+	margin-bottom: 25px;
+}
+
+.button-area button {
+	width: 50%;
+	padding: 10px 0;
+	border-radius: 10px;
+	font-weight: bold;
+	background-color: white;
+	border: solid;
+	border-color: #165be3;
+	color: #165be3;
+}
+
+.button-area button:hover {
+	background-color: #165be3;
+	color: white;
+}
+
+button.active-btn{
+	background-color: #165be3;
+	color: white;
+}
+
+button.active-btn:hover{
+	background-color: #3366FF;
+}
+
+
+
+/*------------------------------------------------------------------*/
+
+label.stock-img {
+	margin-top: 10px;
+}
+
+input.stock-img {
+	margin-left: 30px;
+}
+
+/*--------------------------------------------------------------------*/
+.inventory-title {
+	font-size: 50px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+
+div.inventory-title {
+	border-bottom-style: solid;
+}
